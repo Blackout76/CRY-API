@@ -1,0 +1,8 @@
+<Context docBase="EVETrader" path="/EVETrader" reloadable="true" source="org.eclipse.jst.jee.server:EVETrader">
+<Resource name="jdbc/postgres" auth="Container"
+          type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
+          Url="postgres://ifcbvffxupsigf:be5471df7f49d14b4112b93b0776e0db0e69da2fa0c12bf012b3bc90693fba21@ec2-176-34-186-178.eu-west-1.compute.amazonaws.com:5432/d1i93l3rm9amf4"
+          username="ifcbvffxupsigf" maxTotal="20" maxIdle="10"
+          password="be5471df7f49d14b4112b93b0776e0db0e69da2fa0c12bf012b3bc90693fba21"
+maxWaitMillis="-1"/>
+</Context>

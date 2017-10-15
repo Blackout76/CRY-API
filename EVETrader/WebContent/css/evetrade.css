@@ -1,0 +1,34 @@
+table {  
+    font-family: Courier New, Arial;
+    width: 80%; 
+    border-collapse: 
+    collapse; border-spacing: 0; 
+    padding: 15px;
+    font-size: 12px;
+    align: center;
+}
+
+td, th {  
+    border: 1px solid #CCC; /* No more visible border */
+    text-align: center; 
+    background: #DFDFDF;  /* Darken header a bit */
+}
+
+th {  
+    background: #DFDFDF;  /* Darken header a bit */
+    font-weight: bold;
+}
+
+td {  
+    background: #DFDFDF;
+    text-align: right;
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+tr:nth-child(even) td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+tr:nth-child(odd) td { background: #FEFEFE; }  
+
+tr td:hover { background: #666; color: #FFF; }  
+/* Hover cell effect! */
